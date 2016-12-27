@@ -1,0 +1,281 @@
+@import "./common/libs/swiper/swiper.min";
+@import "./common/libs/swiper/animate.min";
+
+html, body {
+        position: relative;
+        height: 100%;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+    }
+    .tiyan{
+        margin-top: 30px;
+    }
+    .tiyan a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        width: 100px;
+        height: 60px;
+        line-height: 60px;
+        background: #666666;
+        text-align: center;
+        border-radius: 20px;
+        margin: 0 auto;
+        outline: none;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+  .hide  .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+ .hide   .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background:url(../images/bg1.png);
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .headpic{
+        width: 100px;
+        overflow: hidden;
+        height: 100px;
+        border-radius: 50%;
+        background: red;
+        position: absolute;
+        top: 100px;
+    }
+    .geren{
+        color: #333;
+    }
+    .geren p{
+        font-family: "微软雅黑";
+        margin-bottom: 20px;
+    }
+    .headpic img{
+        width: 100px;
+        height: 100px;
+    }
+    .my-skill{
+        position: absolute;
+        top: 20px;
+    }
+    .my-skill img:nth-of-type(1){
+        position: relative;
+        right: 0;
+    }
+    .my-skill img:nth-of-type(2){
+        position: absolute;
+        bottom: 40px;
+        left: -110px;
+    }
+    .my-skill span{
+        position: absolute;
+        font-family: "微软雅黑";
+        font-size: 26px;
+        left: -80px;
+        color: #666;
+    }
+    .wrap-skill{
+        position: relative;
+        margin-top: 30px;
+    }
+    .skill-info p{
+        padding: 5px;
+        height: 20px;
+        width: 200px;
+        background: black;
+        opacity: 0.6;
+        border-radius: 20px;
+    }
+    .skill-info span{
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 200px;
+        text-align: center;
+        color: #ccc;
+    }
+    #jingli{
+        left: 40px;
+        top: 30px;
+    }
+    #jl{
+        right: 80px;
+    }
+    #workjl{
+        top: 80px;
+        right: -80px;
+        left: 0;
+    }
+    .jl-info{
+        color: black;
+        margin-top: 30px;
+        width: 240px;
+        height: 60px;
+        border: 2px solid #333;
+        padding-top: 20px;
+    }
+    .lianxi{
+        font-size: 26px;
+        font-family: "微软雅黑";
+        margin-top: 40px;
+        color: #666;
+    }
+#header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: gray;
+	padding: 0;
+	color: #eee;
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+}
+.header-logo{
+    display: flex;
+    flex: 1;
+}
+
+#footer {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 48px;
+	background: #EDE7D3;
+	padding: 0;
+	border-top: 1px solid #444;
+	display: flex;
+}
+.footer-logo{
+    height: 48px;
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+   
+
+}
+
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 45px;
+	bottom: 48px;
+	left: 0;
+	width: 100%;
+	  background:url(../images/bg4.jpg);
+	   background-size: 100% 100%;
+	overflow: hidden;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#scroller .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+#scroller  .swiper-slide {
+    font-size: 18px;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.jn{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "微软雅黑";
+}
+.jn-info{
+    border: 1px solid black;
+    width: 280px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.swiper-slide{height:10px}    
+.swiper-slide-active { height:auto}
+.pic{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+.musicPart{
+    width:20px;
+    height:20px;    
+    background:url("../images/music.svg") no-repeat;
+    position:fixed;
+    top:14px;
+    right:15px;
+    z-index:5;
+    -webkit-transform: rotate(360deg);
+    animation: rotation 3s linear infinite;
+    -moz-animation: rotation 3s linear infinite;
+    -webkit-animation: rotation 3s linear infinite;
+    -o-animation: rotation 3s linear infinite;
+}
+
+@-webkit-keyframes rotation{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
+\ No newline at end of file
